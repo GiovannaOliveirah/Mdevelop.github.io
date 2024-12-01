@@ -1,0 +1,63 @@
+.formulario {
+    padding: 80px 4%;
+   
+}
+h2.titulo { /* tiulo da parte serviços*/
+    color: #000000;
+    font-size: 38px;
+     text-align: center;
+     left: 30px;
+   position: relative;
+   align-items: center;
+   
+   
+}
+ 
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form input, form textarea {
+    width: 100%;
+    background-color: #9e37b344;
+    border: 0;
+    outline: 0;
+    padding: 15px 10px;
+    font-size: 18px;
+    border-radius: 15px;
+    color: black;
+}
+
+form textarea {
+    resize: none;
+    color: black;
+}
+
+form .btn-enviar {
+    margin-top: 20px;
+    text-align: center;
+}
+
+form .btn-enviar input {
+    width: 120px;
+    background-color: darkgray;
+    color: black;
+    cursor: pointer;
+}
+
+.body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+}
+
+main {
+    height: 80vh;
+}
